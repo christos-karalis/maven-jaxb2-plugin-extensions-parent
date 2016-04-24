@@ -35,10 +35,10 @@
                     <!--<extension>true</extension>-->
                     <removeOldOutput>true</removeOldOutput>
                     <args>
-                        <arg>-Xconstructor-accessor-clone</arg>
                         <arg>-Xprivate</arg>
                         <arg>-XBoolean-getter</arg>
                         <arg>-Xdate-clone</arg>
+                        <arg>-Xbyte-array-copy</arg>
                     </args>
                     <plugins>
                         <plugin>

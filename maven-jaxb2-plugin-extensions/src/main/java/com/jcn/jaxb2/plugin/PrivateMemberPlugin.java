@@ -12,11 +12,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * User: karalch
+ * Add-on that works on the generated source code.
+ * Parses the generates for fields with non private accessor
+ * and replaces it with a private accessor
+ * User: christos-karalis
  * Date: 20/10/2013
  * Time: 11:22
- * To change this template use File | Settings | File Templates.
  */
 public class PrivateMemberPlugin extends Plugin {
     @Override

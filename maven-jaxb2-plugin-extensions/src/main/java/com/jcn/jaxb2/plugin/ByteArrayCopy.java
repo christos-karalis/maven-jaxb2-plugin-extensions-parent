@@ -6,11 +6,13 @@ import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Χρήστος
+ * Add-on that works on the generated source code.
+ * It creates a clone for the returned value provided from
+ * getter fields for (@link byte[]} fields. The reverse
+ * applies for setters too
+ * User: christos-karalis
  * Date: 28/1/2014
- * Time: 1:21 πμ
- * To change this template use File | Settings | File Templates.
+ * Time: 1:21 am
  */
 public class ByteArrayCopy extends AbstractFieldClone {
 

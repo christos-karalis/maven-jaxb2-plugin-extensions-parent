@@ -13,7 +13,7 @@ import java.util.Iterator;
 /**
  * It checks if the generated class from JAXB has any reference to Date or byte[]
  * and reconstructs the constructor with cloned copies of the given parameters
- * User: karalch
+ * User: christos-karalis
  * Date: 28/1/2014
  * Time: 1:21 πμ
  */

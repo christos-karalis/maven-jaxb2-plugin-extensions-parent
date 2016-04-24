@@ -15,11 +15,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created with IntelliJ IDEA.
- * User: karalch
+ * Add-on that works on the generated source code.
+ * Search for getters that returns {@link Boolean} that are using
+ * is... instead of get... to follow the naming convention
+ * for non primitive boolean
+ * User: christos-karalis
  * Date: 20/10/2013
  * Time: 11:22
- * To change this template use File | Settings | File Templates.
  */
 public class GetterBooleanPlugin extends Plugin {
     @Override

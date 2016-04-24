@@ -13,10 +13,28 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by Χρήστος on 10/3/2014.
+ * Created with IntelliJ IDEA.
+ * User: christos-karalis
+ * Date: 10/3/2014
  */
 public abstract class AbstractFieldClone extends Plugin {
 
+    /**
+     * It parses for specific type of fields getters and setters and
+     * replaces with its usage with cloned copies
+     * @param outline
+     *      This object allows access to various generated code.
+     *
+     * @param errorHandler
+     *      Errors should be reported to this handler.
+     *
+     * @param typeName
+     * @return
+     *      If the add-on executes successfully, return true.
+     *      If it detects some errors but those are reported and
+     *      recovered gracefully, return false.
+     * @throws SAXException
+     */
     public boolean run(Outline outline, Options options, ErrorHandler errorHandler, String typeName) throws SAXException {
         for (ClassOutline co : outline.getClasses()) {
 
