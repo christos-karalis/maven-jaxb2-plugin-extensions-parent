@@ -1,4 +1,4 @@
-Extensions for maven-jaxb2-plugin
+Extensions for maven-jaxb2-plugin [![Build Status](https://travis-ci.org/christos-karalis/maven-jaxb2-plugin-extensions-parent.svg?branch=master)](https://travis-ci.org/christos-karalis/maven-jaxb2-plugin-extensions-parent)
 =================================
 
 Extensions for maven-jaxb2-plugin
