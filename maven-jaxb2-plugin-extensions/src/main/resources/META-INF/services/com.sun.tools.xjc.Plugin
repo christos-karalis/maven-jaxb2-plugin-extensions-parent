@@ -1,0 +1,5 @@
+com.jcn.jaxb2.plugin.PrivateMemberPlugin
+com.jcn.jaxb2.plugin.ConstructorAccessorsClone
+com.jcn.jaxb2.plugin.GetterBooleanPlugin
+com.jcn.jaxb2.plugin.ByteArrayCopy
+com.jcn.jaxb2.plugin.DateClone
